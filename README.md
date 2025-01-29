@@ -28,3 +28,19 @@ cd monitoring
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Monitoring/docker-compose.yml
 sudo docker compose up -d
 ```
+
+## 1. Plex
+```
+wget 
+sudo docker compose up -d
+```
+## 2. Plex + Tdarr
+```
+wget 
+sudo docker compose up -d
+```
+## 3. Jellyfin
+```
+wget 
+sudo docker compose up -d
+```
