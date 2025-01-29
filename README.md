@@ -30,7 +30,7 @@ sudo docker compose up -d
 ```
 ## 0. Setting up the monitoring vm
 ```
-wget 
+wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Prometheus%2BGrafana/docker-compose.yml
 sudo docker compose up -d
 ```
 
