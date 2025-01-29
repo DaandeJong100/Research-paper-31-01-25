@@ -33,20 +33,26 @@ sudo docker compose up -d
 ```
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Plex/docker-compose.yml
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Plex/.env
+```
 # nano .env to adjust values
+```
 sudo docker compose up -d
 ```
 ## 2. Plex + Tdarr
 ```
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Plex%2BTdarr/docker-compose.yml
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Plex%2BTdarr/.env
+```
 # nano .env to adjust values
+```
 sudo docker compose up -d
 ```
 ## 3. Jellyfin
 ```
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Jellyfin/docker-compose.yml
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Jellyfin/.env
+```
 # nano .env to adjust values
+```
 sudo docker compose up -d
 ```
