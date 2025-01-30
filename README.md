@@ -32,6 +32,8 @@ sudo docker compose up -d
 ```
 wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Prometheus%2BGrafana/docker-compose.yml
 sudo docker compose up -d
+cd prometheus
+sudo wget https://raw.githubusercontent.com/DaandeJong100/Research-paper-31-01-25/refs/heads/main/Prometheus%2BGrafana/prometheus.yml
 ```
 
 ## 1. Plex
