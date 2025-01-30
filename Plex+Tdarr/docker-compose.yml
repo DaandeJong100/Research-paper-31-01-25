@@ -1,6 +1,6 @@
 services:
   plex:
-    image: lscr.io/linuxserver/plex:latest
+    image: lscr.io/linuxserver/plex:1.41.3
     container_name: plex
     network_mode: host
     environment:
@@ -19,7 +19,7 @@ services:
 
   tdarr:
     container_name: tdarr
-    image: ghcr.io/haveagitgat/tdarr:latest
+    image: ghcr.io/haveagitgat/tdarr:2.29.01
     restart: unless-stopped
     ports:
       - 8265:8265
